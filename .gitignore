@@ -23,8 +23,9 @@ mcp_weather_client.py
 .venv/
 venv/
 
-# uv lock files
+# uv
 uv.lock
+.python-version
 
 # Log files
 *.log

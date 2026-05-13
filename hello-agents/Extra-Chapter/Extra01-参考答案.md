@@ -48,7 +48,7 @@
 
 #### <strong>1.2 什么是位置编码？在 Transformer 中，为什么它是必需的？请列举至少两种实现方式。</strong>
 
-   
+
 * <strong>参考答案：</strong>
     <strong>什么是位置编码？</strong>
     位置编码（Positional Encoding, PE）是一个与词嵌入维度相同的向量，其目的是向模型注入关于词元在输入序列中绝对或相对位置的信息。它会与词元的词嵌入（Token Embedding）相加，然后一同输入到Transformer的底层。

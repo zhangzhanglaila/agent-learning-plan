@@ -1,7 +1,9 @@
-# 18天Agent实习冲刺计划（5/13 - 5/31）最终版
+# 18天Agent应用面试冲刺计划（5/13 - 5/31）
 
-> **目标：** 18天内具备Agent实习面试能力，覆盖Agent开发技能 + LeetCode + 面试八股
-> **每日时间分配建议：** 上午3-4h Agent学习 | 下午3-4h LeetCode + 代码练习 | 晚上1-2h 八股背诵 + 复盘
+> **定位：** Agent 应用开发工程师面试，不含 LLM/VLM/RLHF 算法岗内容
+> **目标：** 18天内具备 Agent 实习面试能力，覆盖 Agent 开发技能 + LeetCode + 八股背诵
+> **每日时间分配：** 上午3-4h Agent学习 | 下午3-4h LeetCode + 代码练习 | 晚上1-2h 八股背诵 + 复盘
+> **八股背诵：** 全部来自 `AI智能体面试题库-精简版.md`（75题），Extra01 仅作理解参考不强制背诵
 
 ---
 
@@ -155,14 +157,15 @@ LLM_BASE_URL=https://api.deepseek.com
 | 3 | 124 | 二叉树中的最大路径和 | 困难 | 树形DP |
 | 4 | 128 | 最长连续序列 | 中等 | 哈希 |
 
-**📖 八股背诵（晚上1-2h）| Agent基础**
+**📖 八股背诵（晚上1-2h）| 第1章 基础认知与技术选型（5题全部）**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | §4.1 如何定义Agent？核心组件？ | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.1 |
-| 2 | §4.2 ReAct框架详解 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.2 |
-| 3 | §4.3 Agent规划能力（CoT/ToT/GoT）| `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.3 |
-| 4 | Q1-2 什么是AI Agent | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q1-2 |
+| 1 | Q1-1 RAG和微调的核心区别？能不能一起用？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q1-1 |
+| 2 | Q1-2 什么是AI Agent？和传统AI应用区别 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q1-2 |
+| 3 | Q1-3 什么时候用Prompt/RAG/微调/Workflow/Agent？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q1-3 |
+| 4 | Q1-4 Token和上下文窗口是什么？工程意义？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q1-4 |
+| 5 | Q1-5 大模型应用上线前最关心哪些工程指标？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q1-5 |
 
 ---
 
@@ -197,14 +200,16 @@ LLM_BASE_URL=https://api.deepseek.com
 | 3 | 141 | 环形链表 | 简单 | 快慢指针 |
 | 4 | 142 | 环形链表II | 中等 | 快慢指针+数学 |
 
-**📖 八股背诵（晚上1-2h）| 工具调用 + 平台**
+**📖 八股背诵（晚上1-2h）| 第5章 Tools/FC/Agent（上）**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | §4.5 Function Calling原理 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.5 |
-| 2 | §4.6 LangChain vs LlamaIndex | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.6 |
-| 3 | Q5-1 ReAct模式是什么 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-1 |
-| 4 | Q5-3 Agent核心组件构成 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-3 |
+| 1 | Q5-1 ReAct模式是什么？（含CoT区别追问） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-1 |
+| 2 | Q5-2 Tool/FC/Agent三者关系？（含追问） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-2 |
+| 3 | Q5-3 Agent核心组件构成？（含挑战追问） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-3 |
+| 4 | Q5-6 "查天气、查新闻"AI助手怎么设计？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-6 |
+| 5 | Q5-7 什么是"工具幻觉"？怎么缓解？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-7 |
+| 6 | Q5-8 Function Calling和"输出JSON再解析"的区别？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-8 |
 
 ---
 
@@ -237,13 +242,15 @@ LLM_BASE_URL=https://api.deepseek.com
 | 3 | 152 | 乘积最大子数组 | 中等 | DP |
 | 4 | 155 | 最小栈 | 中等 | 辅助栈 |
 
-**📖 八股背诵（晚上1-2h）| RAG入门**
+**📖 八股背诵（晚上1-2h）| 第3章 RAG入门 + 第4章检索基础（上）**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | §5.1 RAG工作原理 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §5.1 |
-| 2 | Q6-3 LangChain在今天的价值 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-3 |
-| 3 | Q3-1 完整RAG流水线描述 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-1 |
+| 1 | Q3-1 完整RAG流水线描述（含chunk/rerank追问） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-1 |
+| 2 | Q3-2 文本切块怎么设计？常见坑？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-2 |
+| 3 | Q4-1 向量数据库和传统数据库的区别？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q4-1 |
+| 4 | Q4-2 Embedding是什么？核心价值？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q4-2 |
+| 5 | Q6-3 LangChain在今天的价值？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-3 |
 
 ---
 
@@ -275,13 +282,16 @@ LLM_BASE_URL=https://api.deepseek.com
 | 3 | 198 | 打家劫舍 | 中等 | DP |
 | 4 | 200 | 岛屿数量 | 中等 | DFS/BFS |
 
-**📖 八股背诵（晚上1-2h）| 结构化输出 + RAG切块**
+**📖 八股背诵（晚上1-2h）| 第2章 Prompt工程 + 结构化输出（6题全部）**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | Q2-2 结构化输出做法与优缺点 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q2-2 |
-| 2 | Q2-4 如何系统优化提示词 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q2-4 |
-| 3 | §5.3 文本切块策略 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §5.3 |
+| 1 | Q2-1 System Message和User Message怎么分工？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q2-1 |
+| 2 | Q2-2 结构化输出做法与优缺点 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q2-2 |
+| 3 | Q2-3 Prompt Injection是什么？RAG/Agent为什么要小心？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q2-3 |
+| 4 | Q2-4 如何系统优化提示词并把准确率做上去？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q2-4 |
+| 5 | Q2-5 Prompt工程的边界是什么？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q2-5 |
+| 6 | Q2-6 如何做Prompt版本管理与回归？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q2-6 |
 
 ---
 
@@ -323,14 +333,14 @@ LangChain day07     → create_agent 一行代码（底层LangGraph驱动）
 | 3 | 208 | 实现Trie(前缀树) | 中等 | 设计 |
 | 4 | 215 | 数组中的第K个最大元素 | 中等 | 快选/堆 |
 
-**📖 八股背诵（晚上1-2h）| Function Calling + Tool设计**
+**📖 八股背诵（晚上1-2h）| 第5章 Tools/FC/Agent（下）+ 第6章 LangGraph入门**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | Q5-2 Tool/FC/Agent三者关系 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-2 |
-| 2 | Q5-4 Function Calling基本原理 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-4 |
-| 3 | Q5-5 设计Tool的工程原则 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-5 |
-| 4 | §4.7 构建Agent的主要挑战 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.7 |
+| 1 | Q5-4 Function Calling基本原理（含追问：和文本解析的区别？） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-4 |
+| 2 | Q5-5 设计Tool的工程原则 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-5 |
+| 3 | Q5-9 工具很多时怎么控制上下文长度和调用稳定性？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q5-9 |
+| 4 | Q6-4 如何用LangChain开发Agent？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-4 |
 
 ---
 
@@ -367,14 +377,15 @@ LangChain day07     → create_agent 一行代码（底层LangGraph驱动）
 | 3 | 234 | 回文链表 | 简单 | 快慢指针+反转 |
 | 4 | 236 | 二叉树的最近公共祖先 | 中等 | 树 |
 
-**📖 八股背诵（晚上1-2h）| RAG全链路（重点！）**
+**📖 八股背诵（晚上1-2h）| 第3章 RAG全链路（中）重点！**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | §5.2 完整RAG流水线 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §5.2 |
-| 2 | §5.5 提升RAG检索质量的技术 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §5.5 |
-| 3 | §5.6 Lost in the Middle问题 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §5.6 |
-| 4 | Q3-3 RAG效果不好怎么排查 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-3 |
+| 1 | Q3-3 RAG效果不好怎么排查？（含top_k追问） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-3 |
+| 2 | Q3-4 混合检索、重排序、查询改写分别解决什么问题？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-4 |
+| 3 | Q3-5 RAG如何接入Agent执行链路？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-5 |
+| 4 | Q3-7 什么是Lost in the Middle？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-7 |
+| 5 | Q4-3 如何选择Embedding模型？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q4-3 |
 
 ---
 
@@ -429,13 +440,15 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 | 3 | 240 | 搜索二维矩阵II | 中等 | 二分/剪枝 |
 | 4 | 253 | 会议室II | 中等 | 扫描线/堆 |
 
-**📖 八股背诵（晚上1-2h）| 多Agent + 安全**
+**📖 八股背诵（晚上1-2h）| 第3章 RAG进阶 + 第7章 记忆**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | §4.8 多智能体系统 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.8 |
-| 2 | §4.10 Agent安全与对齐 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.10 |
-| 3 | Q7-2 如何设计短期和长期记忆 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-2 |
+| 1 | Q3-8 有了超长上下文模型，还需要RAG吗？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-8 |
+| 2 | Q3-9 复杂文档RAG/多模态RAG怎么做？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-9 |
+| 3 | Q3-10 什么是Agentic RAG？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-10 |
+| 4 | Q7-1 上下文窗口/短期记忆/长期记忆的关系？（含追问） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-1 |
+| 5 | Q7-2 如何为Agent设计短期和长期记忆？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-2 |
 
 ---
 
@@ -474,14 +487,16 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 | 3 | 287 | 寻找重复数 | 中等 | 快慢指针/二分 |
 | 4 | 297 | 二叉树的序列化与反序列化 | 困难 | 树/设计 |
 
-**📖 八股背诵（晚上1-2h）| MCP专题**
+**📖 八股背诵（晚上1-2h）| 第7章 MCP专题（上）**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | §4.11 A2A vs 普通Agent框架 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.11 |
-| 2 | Q7-3 什么是MCP | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-3 |
-| 3 | Q7-4 MCP和Function Calling的关系 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-4 |
-| 4 | Q7-11 A2A和MCP的区别 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-11 |
+| 1 | Q7-3 什么是MCP？和Tool/RAG/Agent的区别？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-3 |
+| 2 | Q7-4 MCP和Function Calling的关系？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-4 |
+| 3 | Q7-5 MCP如何做到跨平台兼容？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-5 |
+| 4 | Q7-6 MCP技术协议的主体内容？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-6 |
+| 5 | Q7-7 MCP服务器开发流程？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-7 |
+| 6 | Q7-8 Agent如何接入MCP工具？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-8 |
 
 ---
 
@@ -514,13 +529,15 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 | 4 | 312 | 戳气球 | 困难 | 区间DP |
 | 5 | 322 | 零钱兑换 | 中等 | DP/背包 |
 
-**📖 八股背诵（晚上1-2h）| LangGraph框架**
+**📖 八股背诵（晚上1-2h）| 第6章 LangGraph框架（剩余）**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | Q6-1 LangGraph vs 普通Workflow | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-1 |
-| 2 | Q6-2 State/Node/Edge代表什么 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-2 |
-| 3 | Q6-4 如何用LangChain开发Agent | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-4 |
+| 1 | Q6-1 LangGraph相比普通Workflow的最大价值？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-1 |
+| 2 | Q6-2 State/Node/Edge分别代表什么？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-2 |
+| 3 | Q6-5 LCEL的价值？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-5 |
+| 4 | Q6-6 LangGraph进阶特性里最有工程价值的是哪些？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-6 |
+| 5 | Q6-7 Checkpoint/HITL/Time-Travel怎么讲得更工程化？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-7 |
 
 ---
 
@@ -552,13 +569,15 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 | 3 | 347 | 前K个高频元素 | 中等 | 堆/桶排序 |
 | 4 | 394 | 字符串解码 | 中等 | 栈 |
 
-**📖 八股背诵（晚上1-2h）| 上下文 + 记忆**
+**📖 八股背诵（晚上1-2h）| 第7章 MCP（下）+ 第4章检索进阶**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | §4.4 短期记忆和长期记忆设计 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.4 |
-| 2 | Q7-1 上下文窗口/短期/长期记忆 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-1 |
-| 3 | Q6-6 LangGraph进阶特性 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6-6 |
+| 1 | Q7-9 MCP的流式HTTP传输核心优势？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-9 |
+| 2 | Q7-10 MCP调用如何保证并发？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-10 |
+| 3 | Q7-11 A2A和MCP的区别？什么时候需要多智能体？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-11 |
+| 4 | Q7-12 有哪些热门的MCP工具？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q7-12 |
+| 5 | Q4-4 近似检索和精确检索怎么权衡？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q4-4 |
 
 ---
 
@@ -593,13 +612,15 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 | 3 | 416 | 分割等和子集 | 中等 | DP/01背包 |
 | 4 | 437 | 路径总和III | 中等 | 树+前缀和 |
 
-**📖 八股背诵（晚上1-2h）| Agent评估 + 部署**
+**📖 八股背诵（晚上1-2h）| 第9章 评测 + 可观测性 + 成本**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | §5.7 如何评估RAG系统 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §5.7 |
-| 2 | §4.12 Agent框架选型 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.12 |
-| 3 | Q9-1 如何评估RAG或Agent | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-1 |
+| 1 | Q9-1 如何评估RAG或Agent？（含RAGAS/badcase追问） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-1 |
+| 2 | Q9-8 意图识别/任务路由怎么做？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-8 |
+| 3 | Q9-9 大模型应用的可观测性怎么做？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-9 |
+| 4 | Q9-10 控制成本优先从哪些层面下手？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-10 |
+| 5 | Q9-11 模型路由怎么做？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-11 |
 
 ---
 
@@ -635,13 +656,17 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 | 3 | 461 | 汉明距离 | 简单 | 位运算 |
 | 4 | 494 | 目标和 | 中等 | DP/背包 |
 
-**📖 八股背诵（晚上1-2h）| 平台 + 框架选型**
+**📖 八股背诵（晚上1-2h）| 第8章 平台选型 + 第4章知识图谱**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | Q8-1 Coze/Dify和LangChain的关系 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q8-1 |
-| 2 | Q8-2 Agent开发框架怎么选 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q8-2 |
-| 3 | Q8-3 工作流 vs Agent | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q8-3 |
+| 1 | Q8-1 Coze/Dify和LangChain/LangGraph的关系？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q8-1 |
+| 2 | Q8-2 各类Agent开发框架怎么选？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q8-2 |
+| 3 | Q8-3 什么时候工作流比Agent更合适？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q8-3 |
+| 4 | Q8-4 Python调用Dify/Coze工作流关注哪些工程细节？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q8-4 |
+| 5 | Q8-5 RAGFlow等开源RAG平台怎么选型？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q8-5 |
+| 6 | Q4-5 知识图谱/图数据库什么时候比纯向量检索更有价值？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q4-5 |
+| 7 | Q4-6 GraphRAG适合什么场景？和传统向量RAG怎么选？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q4-6 |
 
 ---
 
@@ -672,12 +697,15 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 | 3 | 560 | 和为K的子数组 | 中等 | 前缀和+哈希 |
 | 4 | 581 | 最短无序连续子数组 | 中等 | 双指针 |
 
-**📖 八股背诵（晚上1-2h）| 项目表达 + 场景设计**
+**📖 八股背诵（晚上1-2h）| 第11章项目表达 + 第3章企业RAG + 内网部署**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | Q11-1 介绍RAG/Agent项目怎么讲 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q11-1 |
-| 2 | Q11-2 "为什么不用更热门框架" | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q11-2 |
+| 1 | Q11-1 介绍做过的RAG/Agent项目怎么讲？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q11-1 |
+| 2 | Q11-2 "为什么不用更热门的框架/模型"怎么答？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q11-2 |
+| 3 | Q11-3 线上效果波动大怎么展示排障能力？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q11-3 |
+| 4 | Q3-6 企业RAG为什么必须重视权限、版本和引用？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q3-6 |
+| 5 | Q9-12 内网环境怎么设计Agent/RAG系统？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-12 |
 
 ---
 
@@ -712,13 +740,16 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 | 3 | 647 | 回文子串 | 中等 | 中心扩展/DP |
 | 4 | 739 | 每日温度 | 中等 | 单调栈 |
 
-**📖 八股背诵（晚上1-2h）| 安全 + 幻觉 + 部署**
+**📖 八股背诵（晚上1-2h）| 安全 + 幻觉 + 部署（第9章全部）**
 
 | # | 内容 | 路径 |
 |---|------|------|
 | 1 | Q9-2 什么是"幻觉"，怎么缓解 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-2 |
 | 2 | Q9-3 多用户Agent安全沙箱 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-3 |
 | 3 | Q9-4 Agent部署和运维指标 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-4 |
+| 4 | Q9-5 RAG系统实际部署面临哪些挑战？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-5 |
+| 5 | Q9-6 如何确保Agent行为安全可控？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-6 |
+| 6 | Q9-7 Agent链路耗时很长怎么定位瓶颈？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-7 |
 
 ---
 
@@ -728,7 +759,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | 回顾薄弱八股 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` |
+| 1 | 回顾薄弱八股（重刷精简版标记的薄弱题） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` |
 | 2 | 全书术语复习 | `ai-agents-from-zero/全书术语表.md` |
 
 **📝 LeetCode（下午4h）| 四刷100题全面分类回顾**
@@ -772,14 +803,16 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 **📝 LeetCode（下午2h）| 5道最高频题白板默写：**
 - 146. LRU缓存 / 200. 岛屿数量 / 236. 二叉树最近公共祖先 / 300. 最长递增子序列 / 347. 前K个高频元素
 
-**📖 八股背诵（晚上1-2h）| 剩余场景题 + 项目表达**
+**📖 八股背诵（晚上1-2h）| 第10章 场景设计题复盘 + 第9章 安全**
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | Q11-3 线上效果波动大怎么排障 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q11-3 |
-| 2 | Q9-5 RAG系统实际部署挑战 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-5 |
-| 3 | Q9-6 如何确保Agent行为安全可控 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-6 |
-| 4 | Q9-7 Agent链路耗时怎么定位瓶颈 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-7 |
+| 1 | Q10-6&7 Deep Research系统（脱稿复述架构） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q10-6~7 |
+| 2 | Q10-8 Python代码解释器（回顾） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q10-8 |
+| 3 | Q10-9 类Manus通用智能体（回顾） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q10-9 |
+| 4 | Q10-10 浏览器自动化Agent（回顾） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q10-10 |
+| 5 | Q10-11 真实/模拟环境Agent（回顾） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q10-11 |
+| 6 | Q9-6 如何确保Agent行为安全可控？（Day 14 回顾） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q9-6 |
 
 ---
 
@@ -792,10 +825,10 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 | 模块 | 内容 | 参考材料 |
 |------|------|----------|
 | 1 | 自我介绍+项目介绍（30min） | 三层项目故事（见文末） |
-| 2 | 基础认知快问快答（45min） | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4 |
-| 3 | RAG深度问答（45min） | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §5 |
-| 4 | Agent+Tools+LangGraph（60min） | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4 + `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q6 |
-| 5 | MCP+A2A+自建框架（45min） | `hello-agents/Extra-Chapter/Extra01-参考答案.md` §4.11 + Ch7 |
+| 2 | 基础认知快问快答（45min） | 精简版题库 Q1/Q5（第1章+第5章，共14题） |
+| 3 | RAG深度问答（45min） | 精简版题库 Q3/Q4（第3章+第4章，共16题） |
+| 4 | Agent+Tools+LangGraph（60min） | 精简版题库 Q6 + Q5剩余（第6章+第5章） |
+| 5 | MCP+A2A+自建框架（45min） | 精简版题库 Q7（第7章，12题）+ 三层项目故事 L2 |
 
 **下午：算法面试模拟（3h）**
 - 随机抽5道Hot100题，限时25分钟/题，白板编程
@@ -820,8 +853,10 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 | # | 参考材料 |
 |---|----------|
-| 1 | `hello-agents/Extra-Chapter/Extra01-参考答案.md`（完整过一遍） |
-| 2 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q12-1~3 |
+| 1 | Q12-1 常用哪些AI开发工具？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q12-1 |
+| 2 | Q12-2 Cursor、Claude Code、Copilot的差异？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q12-2 |
+| 3 | Q12-3 AI应用工程师和算法研究岗的差异？ | `ai-agents-from-zero/AI智能体面试题库-精简版.md` Q12-3 |
+| 4 | 全部75题快速过最后一遍（重点：必刷+高频标记的题目） | `ai-agents-from-zero/AI智能体面试题库-精简版.md` |
 
 ---
 
@@ -864,10 +899,10 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 | 来源 | 路径 | 用途 |
 |------|------|------|
-| hello-agents 参考答案 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` | 有答案，按 §4(Agent) §5(RAG) §1-3(LLM) 分类 |
-| hello-agents 面试题目 | `hello-agents/Extra-Chapter/Extra01-面试问题总结.md` | 更全的题目列表（含LLM/VLM/RLHF） |
-| ai-agents-from-zero 题库 | `ai-agents-from-zero/AI智能体面试题库-精简版.md` | 75题分类，用于自测 |
-| ai-agents-from-zero 全题库 | `ai-agents-from-zero/AI智能体与大模型应用开发面试题库.md` | 完整版题库 |
+| **精简版题库（主）** | `ai-agents-from-zero/AI智能体面试题库-精简版.md` | **75题，全部背诵。** 按12章分类，每题3-6行要点 |
+| 全题库（参考） | `ai-agents-from-zero/AI智能体与大模型应用开发面试题库.md` | 完整版，精简版的详细展开 |
+| Extra01 参考答案（翻阅） | `hello-agents/Extra-Chapter/Extra01-参考答案.md` | **不强制背诵。** 精简版某个题理解不透时，去 Extra01 §4(Agent) §5(RAG) 找对应段落看详细解释 |
+| Extra01 §1-3（跳过） | 同上 | LLM/VLM/RLHF 算法岗内容，Agent 应用面试不考 |
 
 ---
 
