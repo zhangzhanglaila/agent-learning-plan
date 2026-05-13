@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated MCP files
+mcp_weather_server.py
+mcp_weather_client.py
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python virtual env
+.venv/
+venv/
+
+# uv lock files
+uv.lock
+
+# Log files
+*.log
