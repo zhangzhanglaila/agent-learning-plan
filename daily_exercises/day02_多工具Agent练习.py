@@ -84,8 +84,7 @@ system_prompt: ChatCompletionSystemMessageParam = {
 def dispatch_tool(agent_response: str) -> str | None:
     """解析Agent输出，调度到对应工具，返回工具结果；不匹配返回None"""
     agent_response = agent_response.strip()
-
-    # 匹配 [calculator]表达式
+     # 匹配 [calculator]表达式
     calc_match = re.search(r"\[calculator\](.*)", agent_response, re.I)
     if calc_match:
         expression = calc_match.group(1).strip()

@@ -84,7 +84,7 @@ LLM_BASE_URL=https://api.deepseek.com
 
 | 优先级 | 材料 | 完整路径 |
 |--------|------|----------|
-| ⭐⭐⭐ | hello-agents 教程 | `hello-agents/docs/chapter{1-16}/` |
+| ⭐⭐⭐ | hello-agents 教程 | `hello-agents/docs/` |
 | ⭐⭐⭐ | hello-agents Ch4 代码（独立可运行） | `hello-agents/code/chapter4/ReAct.py`、`Plan_and_solve.py`、`Reflection.py`、`llm_client.py`、`tools.py` |
 | ⭐⭐⭐ | Plan-Solve + Reflection 适配版 | `daily_exercises/supplement_01_agent_paradigms.py` |
 | ⭐⭐⭐ | hello-agents 面试答案 | `hello-agents/Extra-Chapter/Extra01-参考答案.md` |
@@ -119,7 +119,7 @@ LLM_BASE_URL=https://api.deepseek.com
 
 ---
 
-### 📅 第1天 | 5月13日（周二）| Agent认知 + 三种经典范式
+### 📅 第1天 | 5月13日（周三）| Agent认知 + 三种经典范式
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -129,10 +129,10 @@ LLM_BASE_URL=https://api.deepseek.com
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | hello-agents Ch1 初识智能体（30min） | `hello-agents/docs/chapter1/第一章 初识智能体.md` |
-| 2 | hello-agents Ch2 智能体发展史（20min） | `hello-agents/docs/chapter2/第二章 智能体发展史.md` |
-| 3 | hello-agents Ch3 大语言模型基础（30min） | `hello-agents/docs/chapter3/第三章 大语言模型基础.md` |
-| 4 | hello-agents Ch4 智能体经典范式构建（30min） | `hello-agents/docs/chapter4/第四章 智能体经典范式构建.md` |
+| 1 | hello-agents Ch1 初识智能体（30min） | `hello-agents/docs/第一章 初识智能体.md` |
+| 2 | hello-agents Ch2 智能体发展史（20min） | `hello-agents/docs/第二章 智能体发展史.md` |
+| 3 | hello-agents Ch3 大语言模型基础（30min） | `hello-agents/docs/第三章 大语言模型基础.md` |
+| 4 | hello-agents Ch4 智能体经典范式构建（30min） | `hello-agents/docs/第四章 智能体经典范式构建.md` |
 | 5 | （可选）ai-agents-from-zero 大模型认知 | `ai-agents-from-zero/1-1-大模型认知与工程概览.md` |
 
 **💻 代码：**
@@ -169,7 +169,7 @@ LLM_BASE_URL=https://api.deepseek.com
 
 ---
 
-### 📅 第2天 | 5月14日（周三）| 低代码平台 + 多工具调度
+### 📅 第2天 | 5月14日（周四）| 低代码平台 + 多工具调度
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -179,10 +179,10 @@ LLM_BASE_URL=https://api.deepseek.com
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | hello-agents Ch5 低代码平台（60min） | `hello-agents/docs/chapter5/第五章 基于低代码平台的智能体搭建.md` |
+| 1 | hello-agents Ch5 低代码平台（60min） | `hello-agents/docs/第五章 基于低代码平台的智能体搭建.md` |
 | 2 | ai-agents-from-zero Python调用Dify | `ai-agents-from-zero/4-Python调用Dify平台工作流.md` |
 | 3 | ai-agents-from-zero Python调用Coze | `ai-agents-from-zero/5-Python调用Coze平台工作流.md` |
-| 4 | hello-agents Ch6 框架开发实践（浏览） | `hello-agents/docs/chapter6/第六章 框架开发实践.md` |
+| 4 | hello-agents Ch6 框架开发实践（浏览） | `hello-agents/docs/第六章 框架开发实践.md` |
 | 5 | 低代码平台动手文档 | `daily_exercises/day03_Coze_Dify平台动手.md` |
 
 **💻 代码：**
@@ -213,7 +213,7 @@ LLM_BASE_URL=https://api.deepseek.com
 
 ---
 
-### 📅 第3天 | 5月15日（周四）| LangChain入门
+### 📅 第3天 | 5月15日（周五）| LangChain入门
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -254,7 +254,7 @@ LLM_BASE_URL=https://api.deepseek.com
 
 ---
 
-### 📅 第4天 | 5月16日（周五）| 输出解析器 + LCEL链式调用
+### 📅 第4天 | 5月16日（周六）| 输出解析器 + LCEL链式调用
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -295,7 +295,7 @@ LLM_BASE_URL=https://api.deepseek.com
 
 ---
 
-### 📅 第5天 | 5月17日（周六）| 从手写Agent到create_agent
+### 📅 第5天 | 5月17日（周日）| 从手写Agent到create_agent
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -344,7 +344,7 @@ LangChain day07     → create_agent 一行代码（底层LangGraph驱动）
 
 ---
 
-### 📅 第6天 | 5月18日（周日）| RAG全链路实战
+### 📅 第6天 | 5月18日（周一）| RAG全链路实战
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -356,7 +356,7 @@ LangChain day07     → create_agent 一行代码（底层LangGraph驱动）
 |---|------|------|
 | 1 | 向量数据库与Embedding实战（30min） | `ai-agents-from-zero/18-向量数据库与Embedding实战.md` |
 | 2 | RAG检索增强生成（40min） | `ai-agents-from-zero/19-RAG检索增强生成.md` |
-| 3 | hello-agents Ch8 记忆与检索 §8.1-8.3（40min） | `hello-agents/docs/chapter8/第八章 记忆与检索.md` |
+| 3 | hello-agents Ch8 记忆与检索 §8.1-8.3（40min） | `hello-agents/docs/第八章 记忆与检索.md` |
 
 **💻 代码：**
 
@@ -389,7 +389,7 @@ LangChain day07     → create_agent 一行代码（底层LangGraph驱动）
 
 ---
 
-### 📅 第7天 | 5月19日（周一）| 自建Agent框架 ⭐最重要！
+### 📅 第7天 | 5月19日（周二）| 自建Agent框架 ⭐最重要！
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -399,7 +399,7 @@ LangChain day07     → create_agent 一行代码（底层LangGraph驱动）
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | hello-agents Ch7 构建你的Agent框架（90min精读） | `hello-agents/docs/chapter7/第七章 构建你的Agent框架.md` |
+| 1 | hello-agents Ch7 构建你的Agent框架（90min精读） | `hello-agents/docs/第七章 构建你的Agent框架.md` |
 
 **💻 代码（二选一）：**
 
@@ -452,7 +452,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第8天 | 5月20日（周二）| MCP协议 + 通信协议 ⭐最重要！
+### 📅 第8天 | 5月20日（周三）| MCP协议 + 通信协议 ⭐最重要！
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -462,7 +462,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | hello-agents Ch10 智能体通信协议（90min）| `hello-agents/docs/chapter10/第十章 智能体通信协议.md` |
+| 1 | hello-agents Ch10 智能体通信协议（90min）| `hello-agents/docs/第十章 智能体通信协议.md` |
 | 2 | ai-agents-from-zero MCP模型上下文协议 | `ai-agents-from-zero/20-MCP模型上下文协议.md` |
 
 **💻 代码：**
@@ -500,7 +500,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第9天 | 5月21日（周三）| LangGraph入门
+### 📅 第9天 | 5月21日（周四）| LangGraph入门
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -541,7 +541,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第10天 | 5月22日（周四）| LangGraph多步Agent + 上下文工程
+### 📅 第10天 | 5月22日（周五）| LangGraph多步Agent + 上下文工程
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -551,7 +551,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | hello-agents Ch9 上下文工程（50min） | `hello-agents/docs/chapter9/第九章 上下文工程.md` |
+| 1 | hello-agents Ch9 上下文工程（50min） | `hello-agents/docs/第九章 上下文工程.md` |
 | 2 | LangGraph高级特性（30min） | `ai-agents-from-zero/25-LangGraph高级特性.md` |
 
 **💻 代码：**
@@ -581,7 +581,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第11天 | 5月23日（周五）| 记忆系统 + Agent评估 + RL
+### 📅 第11天 | 5月23日（周六）| 记忆系统 + Agent评估 + RL
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -591,9 +591,9 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | hello-agents Ch8 记忆与检索（回看精读，60min） | `hello-agents/docs/chapter8/第八章 记忆与检索.md` |
-| 2 | hello-agents Ch12 智能体性能评估（50min） | `hello-agents/docs/chapter12/第十二章 智能体性能评估.md` |
-| 3 | hello-agents Ch11 Agentic RL（30min，了解） | `hello-agents/docs/chapter11/第十一章 Agentic-RL.md` |
+| 1 | hello-agents Ch8 记忆与检索（回看精读，60min） | `hello-agents/docs/第八章 记忆与检索.md` |
+| 2 | hello-agents Ch12 智能体性能评估（50min） | `hello-agents/docs/第十二章 智能体性能评估.md` |
+| 3 | hello-agents Ch11 Agentic RL（30min，了解） | `hello-agents/docs/第十一章 Agentic-RL.md` |
 
 **💻 代码（浏览，需helloagents包或GPU）：**
 
@@ -624,7 +624,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第12天 | 5月24日（周六）| 多智能体 + 综合项目
+### 📅 第12天 | 5月24日（周日）| 多智能体 + 综合项目
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -635,8 +635,8 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 | # | 内容 | 路径 |
 |---|------|------|
 | 1 | LangGraph多智能体与A2A（40min） | `ai-agents-from-zero/26-LangGraph多智能体与A2A.md` |
-| 2 | hello-agents Ch13 智能旅行助手（30min） | `hello-agents/docs/chapter13/第十三章 智能旅行助手.md` |
-| 3 | hello-agents Ch14 深度研究智能体（30min） | `hello-agents/docs/chapter14/第十四章 自动化深度研究智能体.md` |
+| 2 | hello-agents Ch13 智能旅行助手（30min） | `hello-agents/docs/第十三章 智能旅行助手.md` |
+| 3 | hello-agents Ch14 深度研究智能体（30min） | `hello-agents/docs/第十四章 自动化深度研究智能体.md` |
 | 4 | 社区共创项目（浏览，20min） | `hello-agents/Co-creation-projects/README.md` |
 
 **💻 代码：**
@@ -670,7 +670,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第13天 | 5月25日（周日）| 电商问数项目 + 项目表达
+### 📅 第13天 | 5月25日（周一）| 电商问数项目 + 项目表达
 
 **🎯 Agent学习（上午3-4h）**
 
@@ -681,7 +681,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 | # | 内容 | 路径 |
 |---|------|------|
 | 1 | 实战项目-电商问数 核心章节（90min） | `ai-agents-from-zero/实战项目-电商问数/` |
-| 2 | hello-agents Ch15 赛博小镇（20min） | `hello-agents/docs/chapter15/第十五章 构建赛博小镇.md` |
+| 2 | hello-agents Ch15 赛博小镇（20min） | `hello-agents/docs/第十五章 构建赛博小镇.md` |
 
 **💻 代码/文档：**
 
@@ -709,7 +709,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第14天 | 5月26日（周一）| LeetCode收尾 + 知识串联
+### 📅 第14天 | 5月26日（周二）| LeetCode收尾 + 知识串联
 
 **🎯 Agent学习（上午2-3h）**
 
@@ -719,7 +719,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 | # | 内容 | 路径 |
 |---|------|------|
-| 1 | hello-agents Ch16 毕业设计（20min） | `hello-agents/docs/chapter16/第十六章 毕业设计.md` |
+| 1 | hello-agents Ch16 毕业设计（20min） | `hello-agents/docs/第十六章 毕业设计.md` |
 | 2 | Extra02 上下文工程补充知识 | `hello-agents/Extra-Chapter/Extra02-上下文工程补充知识.md` |
 | 3 | Extra05 Agent Skills vs MCP | `hello-agents/Extra-Chapter/Extra05-AgentSkills解读.md` |
 | 4 | Extra06 GUI Agent科普 | `hello-agents/Extra-Chapter/Extra06-GUIAgent科普与实战.md` |
@@ -753,7 +753,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第15天 | 5月27日（周二）| LeetCode全面复习 + 八股场景题
+### 📅 第15天 | 5月27日（周三）| LeetCode全面复习 + 八股场景题
 
 **📖 阅读（上午2h）：**
 
@@ -788,7 +788,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第16天 | 5月28日（周三）| 业务场景设计题深度 + 高频LeetCode
+### 📅 第16天 | 5月28日（周四）| 业务场景设计题深度 + 高频LeetCode
 
 **📖 场景设计题深度学习（上午3-4h）：**
 
@@ -816,7 +816,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第17天 | 5月29日（周四）| 全面模拟面试
+### 📅 第17天 | 5月29日（周五）| 全面模拟面试
 
 **🎯 全天模拟面试训练（8h）**
 
@@ -837,7 +837,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第18天 | 5月30日（周五）| 项目打磨 + 最后冲刺
+### 📅 第18天 | 5月30日（周六）| 项目打磨 + 最后冲刺
 
 **📖 项目简历话术打磨（上午3-4h）：**
 
@@ -860,7 +860,7 @@ pip install helloagents  # 来自 https://github.com/jjyaoao/helloagents
 
 ---
 
-### 📅 第19天（机动）| 5月31日（周六）| 缓冲日
+### 📅 第19天（机动）| 5月31日（周日）| 缓冲日
 
 补进度 / 再一轮模拟面试 / 整理面试清单投简历
 
